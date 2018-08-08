@@ -1,0 +1,150 @@
+/* ==Universal Style Editors== */
+body {
+    background: #bbb;
+    padding:0;
+    margin: 0;
+}
+
+div {
+	display: block;
+	margin-left: 5px;
+}
+
+/* ==Top Banner and Menu== */
+#framework {
+    width: 100%;
+    margin: 0 auto;
+    background:white
+    height:70px;
+}
+#header {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5%;
+    height: 270px;
+    text-align: center;
+ }
+ #header img {
+     margin-top: 20px;
+  }
+
+ #mainMenu {
+     position:fixed;
+     top: 0px;
+     margin-left: 30%;
+     z-index: 1;
+ }
+
+#mainMenu ul{
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+#mainMenu li{
+    display:inline;
+    padding: 1px 2px;
+}
+
+#mainMenu ul li a{
+    background: #000000;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#mainMenu ul li a:hover {
+    background: green;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#mainMenu ul li a.current {
+    background: green;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+/* ==Main Body of Site== */
+#mainContent {
+    margin-top: 0px;
+    position: initial;
+}
+
+#sidebar {
+    position: absolute;
+    float: right;
+    margin-top: 51%;
+    margin-left: 75%;
+    z-index: 2;
+  }
+
+#sidebar h1 {
+border: 2px solid black;
+background-color: #86592c;
+border-radius: 5px;
+margin: auto 0;
+color: white;
+text-align: center;
+}
+
+#sidebar ul {
+    list-style-type: none;
+}
+
+#sidebar ul li {
+    padding: 10px 2px;
+    margin: auto 0;
+}
+
+#sidebar ul li a {
+    background: #86592c;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    background: grey;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.beerstyle {
+    position: absolute;
+    margin-top: 35%;
+    margin-right: 26%;
+ }
+
+.beerstyle h1 {
+    font-family: Courier: serif;
+}
+
+.story  {
+    border: 2px solid black;
+     border-radius: 4px;
+    background: #f2e5d9;
+}
+
+
+.banner {
+    position: absolute;
+    margin-top: 45%;
+}
